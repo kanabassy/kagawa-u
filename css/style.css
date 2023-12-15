@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lato:wght@400;700&family=Noto+Sans+JP&display=swap');
+
+body{
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Lato', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+/* テキストタグ関係 */
+h1.site_header{
+    font-size: 33px;
+    font-weight: bold;
+    margin-bottom: initial;
+    @media screen and (max-width: 390px) {
+        font-size: 20px;
+    }
+}
+
+h2.ttl_blueline{
+    font-size: 26px;
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: solid 3px #20A6D3;
+    padding-bottom: 10px;
+    margin-bottom: 80px;
+
+    @media screen and (max-width: 390px) {
+        font-size: 20px;
+        margin-bottom: 32px;
+    }
+    
+}
+
+h2.h2_small{
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+h3.sub_ttl{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 14px;
+}
+
+p.p_topmv{
+    font-size: 20px;
+}
+
+p.p_txt{
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+
+p.p_bd{
+    font-weight: bold;
+}
+
+p.acces_txt-bd{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p.acces_txt{
+    font-size: 16px;
+}
+
+copyright{
+    font-size: 10px;
+}
+
+.footer_logo{
+    font-size: 24px;
+    font-weight:bold;
+    @media screen and (max-width: 390px) {
+        font-size: 20px;
+    }
+}
+/* テキスト関係ここまで */
+
+/* header */
+.navbar {
+    background-color: #231F5A;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-size: 16px;
+}
+
+.navbar-toggler {
+    border-color: #fff;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.brand-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+/* TOPページmain */
+.main{
+    background-image: url("../img/top1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.accordion-button {
+    background-color: lightgray;
+}
+
+/* 武井追加ここから */
+.sec_wrap{
+    max-width: 83%;
+    margin: 0 auto 48px auto;
+    @media screen and (max-width: 390px) {
+        width: 93%;
+    }
+}
+/* 下層ページのメインビジュアル */
+.main-philosophy {
+    background-image: url("../img/main/philosophy3.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 440px;
+    width: 100%;
+    margin-bottom: 118px;
+    @media screen and (max-width: 390px) {
+        height: 260px;
+        margin-bottom: 48px;
+    }
+}
+
+.main-ttl{
+    width: 230px;
+    padding: 16px;
+    background-color:rgba(255,255,255,0.7);
+    @media screen and (max-width: 390px) {
+        width: 140px;
+        padding: 10px;
+    }
+}
+
